@@ -1,0 +1,315 @@
+@font-face{
+  font-family: "Avenir-medium.ttf";
+  src: url("./fonts/source-sans-pro/SourceSansPro-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-book";
+  src: url("../fonts/avenir-book.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-Next-Regular";
+  src: url("../fonts/avenirnext-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "Avenir-Next-Heavy";
+  src: url("../fonts/avenirnext-heavy.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+    font-feature-settings:"liga" 1, "onum" 1, "dlig" 1, "kern" 1;
+    background-color: #393839;
+}
+
+
+body{
+  font-family: "Avenir-Next-Heavy,Avenir-book", "Avenir-medium", arial, Helvetica, sans-serif;
+  color: #b9b3b3;
+  background-color: #1b1c1a;
+  text-align: left;
+  border-style: solid;
+  border-color: red;
+  margin: auto;
+  font-size: 100%;
+  height:auto;
+  max-width: 50rem;
+  padding-left:1rem;
+  padding-right: 2rem;*/
+}
+
+section{
+  margin: auto;
+
+  max-width: 25rem;
+  min-width: 19.9rem;
+  max-height: 36rem;
+  min-height: 31rem;
+  border-style: solid;
+  border-color: red;
+  background-color: rgba(#000000, 0.95);
+  color: rgba(#000000, 0.95);
+  position: relative;
+  display: block;
+  overflow: auto;
+
+
+}
+
+section img{
+  /*display:;*/
+
+}
+
+.header-area{
+  background-color: orange;
+}
+/*#road-length{*/
+
+/*}*/
+#about{
+  min-height:
+}
+
+#gorge2{
+  /*background-color: blue;*/
+  background-image: url("../images/gorge/gorge_rd2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back{
+  background-color: #231f20, 0.95;
+}
+
+#cork_screew{
+  /*background-color: blue;*/
+  background-image: url("../image/gorge_rd.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#mt_barker{
+  /*background-color: blue;*/
+  background-image: url("../images/mt_barker/mt_barker_rd_2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#mt_bold{
+  /*background-color: blue;*/
+  background-image: url("../images/mt_barker/mt_barker_rd_2.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+/*display: inline-block;
+display: inline-grid;*/
+
+#rating li{
+  margin: 0;
+  display: list-item;
+}
+
+.card {
+        display: inline-block;
+      }
+.body{
+  margin: auto;
+  max-width: 40rem;
+}
+
+header{
+  margin: auto;
+  max-width: 40rem;
+  padding-left:1rem;
+  padding-right: 2rem;
+}
+
+main{
+
+}
+
+.palette{
+  height: 6rem;
+  width:  6rem;
+  display: inline-block;
+}
+
+.primary{
+  background-color: red;
+}
+
+.secondary{
+  background-color: green;
+}
+
+.tertiary{
+  background-color: orange;
+}
+
+header>h1{
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+a{
+ color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: #EFAF1E;
+}
+
+h1{
+  font-weight: bolder;
+  font-family: "Avenir-Next-Heavy",sans-serif ;
+  color: #efaf1e;
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 4rem;
+  }
+
+h2{
+  color: white;
+  }
+
+h3{
+  color: white;
+  font-size: 110%;
+  font-weight: bold;
+  }
+
+h4{
+  color: white;
+}
+
+h5{
+
+  color: white;
+  font-family: "Avenir-medium", arial, Helvetica, sans-serif;
+  /*font-size: 115%;*/
+  }
+
+h6{
+  font-family: "Avenir-medium", arial, helvetica, sans-serif;
+  color: white
+  font-family: arial, Helvetica, sans-serif;
+  /*font-size: 110%;*/
+  }
+
+  p{
+    color: white;
+    font-family: "Avenir-book", arial, Helvetica, sans-serif;
+    display: inline-block;
+  }
+
+img{
+    width: 100%;
+    /*border-color: red;*/
+    /*border-style: solid;*/
+}
+
+nav{
+  margin: auto;
+  padding:0.5rem;
+  border: solid;
+  width:100%;
+  max-height: 2rem;
+  background-color: white
+  font-family:  "Avenir-medium", arial, helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  width: 100%;
+  border-color: red;
+  overflow: auto;
+  /*position: fixed;*/
+  /*top: 0;*/
+
+
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    margin-left: 1rem;
+    color: black;
+    margin-top: 0;
+
+}
+
+nav a {
+    display: block;
+    width: 3rem;
+    background-color: white;
+    text-decoration: none;
+
+
+}
+
+
+iframe {
+    border: none;
+}
+
+.showcase{
+  margin: auto;
+  border: solid;
+  width: 100%;
+  max-height: 19rem;
+  image-orientation: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.showcase img{
+
+}
+
+.showcase h2{
+  float: center;
+  background-color: rgba(#000000, 0.65);
+  z-index: +1;
+}
+article {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.tagline{
+
+}
+
+area {
+    /*display: none;*/
+    border-style: solid;
+    border-color: red;
+    min-width: 4.58975rem;
+    min-height: 3.61175rem;
+}
+.front{
+  margin: auto;
+}
+.back{
+  margin: auto;
+}
